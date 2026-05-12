@@ -28,7 +28,9 @@ const FileUpload = () => {
         formData.append("files", file);
       });
 
-      const response = await fetch("http://localhost:8000/api/upload", {
+      const API_BASE_URL = "https://reasearchplanning6backend-cshhdag7bcejc9c3.japaneast-01.azurewebsites.net";
+
+      const response = await fetch(`${API_BASE_URL}/upload`, {
         method: "POST",
         body: formData,
       });

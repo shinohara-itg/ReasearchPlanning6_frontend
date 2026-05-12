@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const API_BASE_URL = "http://localhost:8000";
+const API_BASE_URL = "https://reasearchplanning6backend-cshhdag7bcejc9c3.japaneast-01.azurewebsites.net";
 
 function FileUpload({ onUploadComplete, onUploadStart, onUploadError }) {
   const [files, setFiles] = useState([]);
