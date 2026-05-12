@@ -18,7 +18,7 @@ import {
 } from "lucide-react";
 
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "";
+const API_BASE_URL = "https://reasearchplanning6backend-cshhdag7bcejc9c3.japaneast-01.azurewebsites.net";
 
 function App() {
   const [documents, setDocuments] = useState([]);
